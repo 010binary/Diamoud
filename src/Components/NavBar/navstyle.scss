@@ -1,0 +1,44 @@
+@import "../../Partials/reset";
+
+nav {
+    background-color: $background-color;
+    color: $color;
+    font-size: $font-size;
+    width: 100%;
+    position: fixed;
+    height: 5rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .header {
+        margin: 0 30px;
+    }
+
+    ul {
+        display: flex;
+        width: 70%;
+        justify-content: space-evenly;
+
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: $color;
+            }
+
+            &:hover {
+                transition: 0.7s;
+                transform: scale(1.1);
+                background-color: rgb(4, 0, 255);
+                padding: 3px;
+                margin: 0 3px;
+                border-radius: 10px;
+            }
+        }
+
+    }
+}
