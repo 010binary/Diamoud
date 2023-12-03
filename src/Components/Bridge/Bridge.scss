@@ -1,0 +1,144 @@
+@import "../../Partials/reset";
+
+.Bridge__Container {
+    color: $white;
+    position: relative;
+    background-color: $accent-orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+
+    .colar__design {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        &>img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    .category {
+        text-align: center;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: "El Messiri", sans-serif;
+
+        .Number {
+            background-color: $yellow;
+            font-size: 3rem;
+            line-height: 90px;
+            font-weight: 700;
+            text-align: center;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            color: $blur;
+            font-family: "El Messiri", sans-serif;
+        }
+    }
+
+    .pictures {
+        padding: 0 20px;
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+
+        .a_Dog {
+            text-align: center;
+        }
+
+        .a_Dog>img {
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border-radius: 50px;
+            margin-top: 10px;
+        }
+
+        .a_cat>img,
+        .a_parrot>img,
+        .a_bird>img,
+        .a_fox>img,
+        .a_dogs>img,
+        .a_hamster>img,
+        .a_rabbit>img {
+            width: 70px;
+            height: 70px;
+            background-color: aquamarine;
+            border-radius: 35px;
+        }
+
+        //1
+        .a_cat {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        //2
+        .a_parrot {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+
+        //3
+        .a_Dog {
+            grid-area: 1 / 2 / 3 / 3;
+        }
+
+        //4
+        .a_bird {
+            grid-area: 1 / 3 / 2 / 4;
+        }
+
+        //5
+        .a_fox {
+            grid-area: 2 / 3 / 3 / 4;
+        }
+
+        //6
+        .a_dogs {
+            grid-area: 1 / 4 / 2 / 5;
+        }
+
+        //7
+        .a_hamster {
+            grid-area: 2 / 4 / 3 / 5;
+        }
+
+        //8
+        .a_rabbit {
+            grid-area: 1 / 5 / 2 / 6;
+        }
+
+        //9
+        .a_cat.onec {
+            grid-area: 2 / 5 / 3 / 6;
+        }
+
+        //10
+        .a_cat.twoc {
+            grid-area: 1 / 6 / 2 / 7;
+        }
+
+        //11
+        .a_parrot.onep {
+            grid-area: 2 / 6 / 3 / 7;
+        }
+
+        //12
+        .a_hamster.oneh {
+            grid-area: 1 / 7 / 2 / 8;
+        }
+
+        //13
+        .a_bird.oneb {
+            grid-area: 2 / 7 / 3 / 8;
+        }
+    }
+}

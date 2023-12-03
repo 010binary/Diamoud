@@ -1,4 +1,6 @@
 import './App.css'
+import Bridge from './Components/Bridge/Bridge.jsx'
+import HeroPage from './Components/Heropage/Hero.jsx'
 import NavBar from './Components/NavBar/NavBar.jsx'
 
 function App() {
@@ -8,7 +10,8 @@ function App() {
         <NavBar />
       </header>
       <main>
-        lorem
+        <HeroPage />
+        <Bridge />
       </main>
     </>
   )
