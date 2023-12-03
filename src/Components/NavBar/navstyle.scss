@@ -1,19 +1,25 @@
 @import "../../Partials/reset";
 
 nav {
-    background-color: $background-color;
+    background-color: $hero-color;
     color: $color;
     font-size: $font-size;
     width: 100%;
     position: fixed;
-    height: 5rem;
+    height: 6rem;
     padding: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
 
     .header {
-        margin: 0 30px;
+        width: 30%;
+
+        img {
+            min-width: 100px;
+            max-width: 150px;
+
+        }
     }
 
     ul {
@@ -25,19 +31,27 @@ nav {
         li {
             list-style: none;
 
+
             a {
                 text-decoration: none;
-                color: $color;
+                color: $blur;
+
+                &:hover {
+                    color: $accent-color;
+                    font-weight: 600;
+                }
             }
 
             &:hover {
                 transition: 0.7s;
                 transform: scale(1.1);
-                background-color: rgb(4, 0, 255);
-                padding: 3px;
                 margin: 0 3px;
                 border-radius: 10px;
             }
+        }
+
+        li+li {
+            margin-left: 5px;
         }
 
     }

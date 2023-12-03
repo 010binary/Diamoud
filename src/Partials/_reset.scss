@@ -1,15 +1,31 @@
-$background-color:blue;
-$font-size:1.5rem;
-$color:white;
+$font-size: 1.5rem;
+$color: white;
 $font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-$moblie-value:600px;
+$moblie-value: 600px;
 
-*{
+* {
     margin: 0;
     font-family: $font-family;
+    box-sizing: border-box;
 }
+
 @mixin mobile {
     @media (max-width: $moblie-value) {
         @content;
     }
 }
+
+/*COLOR CONFIGUATION*/
+$hero-color: #05d3bc;
+$accent-color: #c65919;
+$secondary-color: #feefae;
+$orange : #ffbd0f;
+$dark-orange: #f1b01a;
+$second-page: #fdeead;
+$third-page: #209daf;
+$fouth-color: #fef2da;
+$yellow: #fdbe13;
+$accent-orange: #f85c05;
+$dark-color: #012d38;
+$white: #f9fdff;
+$blur : #012b32;

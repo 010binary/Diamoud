@@ -1,22 +1,28 @@
 * {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
+/*COLOR CONFIGUATION*/
 nav {
-  background-color: blue;
+  background-color: #05d3bc;
   color: white;
   font-size: 1.5rem;
   width: 100%;
   position: fixed;
-  height: 5rem;
+  height: 6rem;
   padding: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 nav .header {
-  margin: 0 30px;
+  width: 30%;
+}
+nav .header img {
+  min-width: 100px;
+  max-width: 150px;
 }
 nav ul {
   display: flex;
@@ -28,13 +34,18 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #012b32;
+}
+nav ul li a:hover {
+  color: #c65919;
+  font-weight: 600;
 }
 nav ul li:hover {
   transition: 0.7s;
   transform: scale(1.1);
-  background-color: rgb(4, 0, 255);
-  padding: 3px;
   margin: 0 3px;
   border-radius: 10px;
+}
+nav ul li + li {
+  margin-left: 5px;
 }/*# sourceMappingURL=navstyle.css.map */
