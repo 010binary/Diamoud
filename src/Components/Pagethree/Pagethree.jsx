@@ -13,6 +13,7 @@ function Pagethree() {
             <div className='pagethree__design__two'>
                 <img src={Designtwo} alt="Page decoration" />
             </div>
+
             <div className='Left__img'>
                 <img src={image} alt="Picture of a woman and her dog" />
             </div>
@@ -35,6 +36,7 @@ function Pagethree() {
                         explore
                     </a>
                 </button>
+
             </div>
         </div>
     )
