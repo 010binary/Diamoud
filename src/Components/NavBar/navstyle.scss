@@ -9,6 +9,7 @@ nav {
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 10px;
 
     .header {
@@ -25,6 +26,7 @@ nav {
         display: flex;
         width: 70%;
         justify-content: space-evenly;
+        padding-left: 0;
 
 
         li {
@@ -53,5 +55,34 @@ nav {
             margin-left: 5px;
         }
 
+    }
+
+    button {
+        background-color: $accent-color;
+        border: none;
+        border-radius: 20px;
+        width: 20%;
+        padding: 10px;
+        margin-left: 100px;
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            background-color: $accent-orange;
+            transition: 0.7s;
+            transform: scale(1.05);
+
+            a {
+                color: $blur;
+                transition: 0.7s;
+            }
+        }
     }
 }

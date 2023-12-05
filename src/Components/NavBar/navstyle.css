@@ -13,6 +13,7 @@ nav {
   padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   gap: 10px;
 }
 nav .header {
@@ -26,6 +27,7 @@ nav ul {
   display: flex;
   width: 70%;
   justify-content: space-evenly;
+  padding-left: 0;
 }
 nav ul li {
   list-style: none;
@@ -46,4 +48,29 @@ nav ul li:hover {
 }
 nav ul li + li {
   margin-left: 5px;
+}
+nav button {
+  background-color: #c65919;
+  border: none;
+  border-radius: 20px;
+  width: 20%;
+  padding: 10px;
+  margin-left: 100px;
+}
+nav button a {
+  text-decoration: none;
+  color: #f9fdff;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+nav button:hover {
+  background-color: #f85c05;
+  transition: 0.7s;
+  transform: scale(1.05);
+}
+nav button:hover a {
+  color: #012b32;
+  transition: 0.7s;
 }/*# sourceMappingURL=navstyle.css.map */

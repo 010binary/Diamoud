@@ -1,19 +1,19 @@
 import React from 'react';
 import './Bridge.css';
-import Dog from '../../../public/Bridge_imgs/A Dog.jpg';
-import bird from '../../../public/Bridge_imgs/A bird.jpg';
-import cat from '../../../public/Bridge_imgs/A brown cat.jpg';
-import fox from '../../../public/Bridge_imgs/A fox.jpg';
-import Cat from '../../../public/Bridge_imgs/A grey cat.jpg';
-import Hamster from '../../../public/Bridge_imgs/A Hamsters.jpg';
-import hamster from '../../../public/Bridge_imgs/A hamster.jpg';
-import parrot from '../../../public/Bridge_imgs/A parrot.jpg';
-import dog from '../../../public/Bridge_imgs/A siberian Husky.jpg';
-import Parrot from '../../../public/Bridge_imgs/A parrot2.jpg';
-import Chameleon from '../../../public/Bridge_imgs/A Chameleon.jpg';
-import Rabbit from '../../../public/Bridge_imgs/A rabbit.jpg';
-import Fish from '../../../public/Bridge_imgs/A Gold Fish.jpg';
-import Colar from '../../../public/Designs/Colar.png';
+import Dog from '/public/Bridge_imgs/A Dog.jpg';
+import bird from '/public/Bridge_imgs/A bird.jpg';
+import cat from '/public/Bridge_imgs/A brown cat.jpg';
+import fox from '/public/Bridge_imgs/A fox.jpg';
+import Cat from '/public/Bridge_imgs/A grey cat.jpg';
+import Hamster from '/public/Bridge_imgs/A Hamsters.jpg';
+import hamster from '/public/Bridge_imgs/A hamster.jpg';
+import parrot from '/public/Bridge_imgs/A parrot.jpg';
+import dog from '/public/Bridge_imgs/A siberian Husky.jpg';
+import Parrot from '/public/Bridge_imgs/A parrot2.jpg';
+import Chameleon from '/public/Bridge_imgs/A Chameleon.jpg';
+import Rabbit from '/public/Bridge_imgs/A rabbit.jpg';
+import Fish from '/public/Bridge_imgs/A Gold Fish.jpg';
+import Colar from '/public/Designs/Colar.png';
 
 function Bridge() {
   return (

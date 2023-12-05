@@ -1,0 +1,185 @@
+@import "../../Partials/reset";
+
+.Pagetwo__container {
+    position: relative;
+    padding: 50px 0 40px 60px;
+    overflow: hidden;
+    height: 86vh;
+    background-color: $second-page;
+
+    .Design__one {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        img {
+            width: 15em;
+        }
+    }
+
+    .Design__two {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+
+        img {
+            width: 10em;
+        }
+
+    }
+
+    .Content__container {
+
+        z-index: 5;
+        height: 100%;
+        padding-right: 0;
+
+        .Our__services {
+            text-transform: capitalize;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+            color: $blur;
+        }
+
+        .services {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .pagetwo_imgs {
+            background-color: $dark-orange;
+            width: 100px;
+            height: 90px;
+            display: grid;
+            place-items: center;
+            padding: 15px 0px;
+            border-radius: 50%;
+
+
+            .scissors,
+            .Shirt,
+            .Stethoscope {
+                width: 50px;
+                fill: $blur;
+            }
+
+            .scissors {
+                rotate: 270deg;
+            }
+        }
+
+        .section:hover {
+            transition: 1s;
+            background-color: $dark-orange;
+            transform: skew(0deg);
+
+            .pagetwo_imgs {
+                background-color: $second-page;
+                transition: 0.5s;
+                transform: skew(0deg);
+            }
+
+            p {
+                transform: skew(0deg);
+            }
+
+            button {
+                background-color: $accent-orange;
+                transition: 0.7s;
+                transform: scale(1.05);
+                transform: skew(0deg);
+
+                a {
+                    color: $blur;
+                    transition: 0.7s;
+                }
+            }
+        }
+
+        .section {
+            color: $blur;
+            background-color: $second-page;
+            padding: 30px;
+            width: 30%;
+            border: 0.1mm solid #00000044;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                text-align: justify;
+
+
+                span {
+                    display: block;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                }
+            }
+
+            button {
+                margin-top: 20px;
+                background-color: $accent-color;
+                border: none;
+                border-radius: 20px;
+                width: 30%;
+                padding: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.section+.section {
+    margin-left: 100px;
+}
+
+.pharmacy {
+    transform: skew(10deg);
+
+    .pagetwo_imgs,
+    p,
+    button {
+        transform: skew(-10deg) translate(0, -10%);
+        margin: 0px 20px;
+
+    }
+
+}
+
+.cloths {
+    transform: skew(10deg) translate(0, 10%);
+
+    .pagetwo_imgs,
+    p,
+    button {
+        transform: skew(-10deg);
+        margin: 0px 20px;
+    }
+}
+
+.haircut {
+    transform: skew(-10deg) translate(0, 5%);
+
+    .pagetwo_imgs,
+    p,
+    button {
+        transform: skew(10deg);
+        margin: 0px 20px;
+    }
+}

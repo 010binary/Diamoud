@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.Pagetwo__container {
+  position: relative;
+  padding: 50px 0 40px 60px;
+  overflow: hidden;
+  height: 86vh;
+  background-color: #fdeead;
+}
+.Pagetwo__container .Design__one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.Pagetwo__container .Design__one img {
+  width: 15em;
+}
+.Pagetwo__container .Design__two {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.Pagetwo__container .Design__two img {
+  width: 10em;
+}
+.Pagetwo__container .Content__container {
+  z-index: 5;
+  height: 100%;
+  padding-right: 0;
+}
+.Pagetwo__container .Content__container .Our__services {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #012b32;
+}
+.Pagetwo__container .Content__container .services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Pagetwo__container .Content__container .pagetwo_imgs {
+  background-color: #f1b01a;
+  width: 100px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  padding: 15px 0px;
+  border-radius: 50%;
+}
+.Pagetwo__container .Content__container .pagetwo_imgs .scissors,
+.Pagetwo__container .Content__container .pagetwo_imgs .Shirt,
+.Pagetwo__container .Content__container .pagetwo_imgs .Stethoscope {
+  width: 50px;
+  fill: #012b32;
+}
+.Pagetwo__container .Content__container .pagetwo_imgs .scissors {
+  rotate: 270deg;
+}
+.Pagetwo__container .Content__container .section:hover {
+  transition: 1s;
+  background-color: #f1b01a;
+  transform: skew(0deg);
+}
+.Pagetwo__container .Content__container .section:hover .pagetwo_imgs {
+  background-color: #fdeead;
+  transition: 0.5s;
+  transform: skew(0deg);
+}
+.Pagetwo__container .Content__container .section:hover p {
+  transform: skew(0deg);
+}
+.Pagetwo__container .Content__container .section:hover button {
+  background-color: #f85c05;
+  transition: 0.7s;
+  transform: scale(1.05);
+  transform: skew(0deg);
+}
+.Pagetwo__container .Content__container .section:hover button a {
+  color: #012b32;
+  transition: 0.7s;
+}
+.Pagetwo__container .Content__container .section {
+  color: #012b32;
+  background-color: #fdeead;
+  padding: 30px;
+  width: 30%;
+  border: 0.1mm solid rgba(0, 0, 0, 0.2666666667);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Pagetwo__container .Content__container .section p {
+  text-align: justify;
+}
+.Pagetwo__container .Content__container .section p span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.Pagetwo__container .Content__container .section button {
+  margin-top: 20px;
+  background-color: #c65919;
+  border: none;
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px;
+}
+.Pagetwo__container .Content__container .section button a {
+  text-decoration: none;
+  color: #f9fdff;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.section + .section {
+  margin-left: 100px;
+}
+
+.pharmacy {
+  transform: skew(10deg);
+}
+.pharmacy .pagetwo_imgs,
+.pharmacy p,
+.pharmacy button {
+  transform: skew(-10deg) translate(0, -10%);
+  margin: 0px 20px;
+}
+
+.cloths {
+  transform: skew(10deg) translate(0, 10%);
+}
+.cloths .pagetwo_imgs,
+.cloths p,
+.cloths button {
+  transform: skew(-10deg);
+  margin: 0px 20px;
+}
+
+.haircut {
+  transform: skew(-10deg) translate(0, 5%);
+}
+.haircut .pagetwo_imgs,
+.haircut p,
+.haircut button {
+  transform: skew(10deg);
+  margin: 0px 20px;
+}/*# sourceMappingURL=Pagetwo.css.map */

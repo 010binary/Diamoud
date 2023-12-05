@@ -52,6 +52,8 @@
 }
 .Bridge__Container .pictures .a_Dog {
   text-align: center;
+  font-weight: 600;
+  color: #012b32;
 }
 .Bridge__Container .pictures .a_Dog > img {
   display: block;
