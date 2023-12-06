@@ -4,7 +4,6 @@
     position: relative;
     padding: 50px 0 40px 60px;
     overflow: hidden;
-    height: 86vh;
     background-color: $second-page;
 
     .Design__one {
@@ -31,10 +30,10 @@
     }
 
     .Content__container {
-
         z-index: 5;
         height: 100%;
         padding-right: 0;
+        padding-bottom: 60px;
 
         .Our__services {
             text-transform: capitalize;
