@@ -11,11 +11,11 @@ function Pagethree() {
                 <img src={Designone} alt="Page decoration" />
             </div>
             <div className='pagethree__design__two'>
-                <img src={Designtwo} alt="Page decoration" />
+                <img src={Designtwo} alt="Page decoration"/>
             </div>
 
             <div className='Left__img'>
-                <img src={image} alt="Picture of a woman and her dog" />
+                <img src={image} alt="Picture of a woman and her dog"/>
             </div>
             <div className='Right__text'>
                 <p className='Pagethree__header'>

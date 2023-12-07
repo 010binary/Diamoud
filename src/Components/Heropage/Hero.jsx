@@ -16,7 +16,7 @@ class HeroPage extends Component {
                         <button><a href="#">Contact Us</a></button>
                     </div>
                     <div className='Hero__imgs'>
-                        <img src={imgs} alt='image of 3 dogs' />
+                        <img src={imgs} alt='image of 3 dogs'/>
                     </div>
                 </div>
             </>

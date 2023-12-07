@@ -30,44 +30,44 @@ function Bridge() {
       </div>
       <div className="pictures">
         <div className="a_cat">
-          <img src={cat} alt="Picture of a Cat" />
+          <img src={cat} alt="Picture of a Cat" loading='lazy'/>
         </div>
         <div className="a_parrot">
-          <img src={parrot} alt="Picture of a parrot" />
+          <img src={parrot} alt="Picture of a parrot" loading='lazy'/>
         </div>
         <div className="a_Dog">
           Dog (Jasper)
-          <img src={Dog} alt="Picture of my Dog Jasper" />
+          <img src={Dog} alt="Picture of my Dog Jasper" loading='lazy'/>
         </div>
         <div className="a_bird">
-          <img src={bird} alt="Picture of a bird" />
+          <img src={bird} alt="Picture of a bird" loading='lazy'/>
         </div>
         <div className="a_cat onec">
-          <img src={Cat} alt="Picture of a Cat" />
+          <img src={Cat} alt="Picture of a Cat" loading='lazy'/>
         </div>
         <div className="a_fox">
-          <img src={fox} alt="Picture of a fox" />
+          <img src={fox} alt="Picture of a fox" loading='lazy'/>
         </div>
         <div className="a_dogs">
-          <img src={dog} alt="Picture of a dog" />
+          <img src={dog} alt="Picture of a dog" loading='lazy'/>
         </div>
         <div className="a_cat twoc">
-          <img src={Chameleon} alt="Picture of a Chameleon" />
+          <img src={Chameleon} alt="Picture of a Chameleon" loading='lazy'/>
         </div>
         <div className="a_parrot onep">
-          <img src={Parrot} alt="Picture of a parrot" />
+          <img src={Parrot} alt="Picture of a parrot" loading='lazy'/>
         </div>
         <div className="a_hamster">
-          <img src={hamster} alt="Picture of a hamster" />
+          <img src={hamster} alt="Picture of a hamster" loading='lazy'/>
         </div>
         <div className="a_hamster oneh">
-          <img src={Hamster} alt="Picture of a hamster" />
+          <img src={Hamster} alt="Picture of a hamster" loading='lazy'/>
         </div>
         <div className="a_bird oneb">
-          <img src={Fish} alt="Picture of a Gold Fish" />
+          <img src={Fish} alt="Picture of a Gold Fish" loading='lazy'/>
         </div>
         <div className="a_rabbit">
-          <img src={Rabbit} alt="Picture of a rabbit" />
+          <img src={Rabbit} alt="Picture of a rabbit" loading='lazy'/>
         </div>
       </div>
     </div>
