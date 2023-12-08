@@ -12,6 +12,7 @@ $moblie-value: 600px;
 @mixin mobile {
     @media (max-width: $moblie-value) {
         @content;
+        color: #696969;
     }
 }
 
