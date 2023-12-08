@@ -1,10 +1,10 @@
 import React from 'react'
 import './Pagetwo.css'
-import spiral from '/public/Designs/Design2.png';
-import claw from '/public/Designs/Design1.png';
-import scissors from '/public/Icon/scissors-solid.svg';
-import shirt from '/public/Icon/shirt-solid.svg';
-import stethoscope from '/public/Icon/stethoscope-solid.svg';
+import spiral from '/imgs/Designs/Design2.png';
+import claw from '/imgs/Designs/Design1.png';
+import scissors from '/imgs/Icon/scissors-solid.svg';
+import shirt from '/imgs/Icon/shirt-solid.svg';
+import stethoscope from '/imgs/Icon/stethoscope-solid.svg';
 
 function Pagetwo() {
     return (

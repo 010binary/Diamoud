@@ -1,6 +1,6 @@
 import React from 'react'
 import './navstyle.css'
-import logo from '/public/Veterinary.png';
+import logo from '/imgs/hero&nav/Veterinary.png';
 
 function NavBar() {
   const NavItems = ['Home', 'Boxer', 'Breedings', 'Puppies', 'About Us']

@@ -1,8 +1,8 @@
 import React from 'react'
 import './Pagethree.css'
-import image from '/public/Pagethree/A Woman & her Husky(2).jpg';
-import Designone from '/public/Designs/Design.png';
-import Designtwo from '/public/Designs/Design3.png';
+import image from '/imgs/Pages/A Woman & her Husky(2).jpg';
+import Designone from '/imgs/Designs/Design.png';
+import Designtwo from '/imgs/Designs/Design3.png';
 
 function Pagethree() {
     return (
