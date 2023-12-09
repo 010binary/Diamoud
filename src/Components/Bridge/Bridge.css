@@ -30,9 +30,10 @@
   font-family: "El Messiri", sans-serif;
 }
 .Bridge__Container .category .Number {
+  display: grid;
+  place-content: center;
   background-color: #fdbe13;
   font-size: 3rem;
-  line-height: 90px;
   font-weight: 700;
   text-align: center;
   height: 80px;

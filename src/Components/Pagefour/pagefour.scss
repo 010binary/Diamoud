@@ -1,1 +1,69 @@
 @import "../../Partials/reset";
+
+.Pagefour__container {
+    background-color: $second-page;
+    color: $dark-color;
+    
+
+    .Pagefour {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+        .Pagefour__image {
+            margin: 60px 0 60px 60px;
+
+            img {
+                width: 450px;
+                height: 325px;
+            }
+        }
+
+        .Pagefour__section {
+            width: 470px;
+
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 50px;
+                text-transform: capitalize;
+                font-family: 'El Messiri', sans-serif;
+            }
+
+            p {
+                font-size: 1.18rem;
+                text-align: justify;
+                background-color: $fouth-color;
+                padding: 25px;
+                border-radius: 30px;
+            }
+
+            div {
+                padding: 20px 30%;
+                color: $blur;
+
+                button+button {
+                    margin-left: 10px;
+                }
+
+
+                button {
+                    background-color: $accent-color;
+                    border: none;
+                    border-radius: 30px;
+                    width: 70px;
+                    text-transform: uppercase;
+                    padding: 10px;
+
+                    &:hover {
+                        background-color: $accent-orange;
+                        transition: 0.7s;
+                        transform: scale(1.05);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -2,4 +2,58 @@
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
+}
+
+.Pagefour__container {
+  background-color: #fdeead;
+  color: #012d38;
+}
+.Pagefour__container .Pagefour {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Pagefour__container .Pagefour .Pagefour__image {
+  margin: 60px 0 60px 60px;
+}
+.Pagefour__container .Pagefour .Pagefour__image img {
+  width: 450px;
+  height: 325px;
+}
+.Pagefour__container .Pagefour .Pagefour__section {
+  width: 470px;
+}
+.Pagefour__container .Pagefour .Pagefour__section h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  font-family: "El Messiri", sans-serif;
+}
+.Pagefour__container .Pagefour .Pagefour__section p {
+  font-size: 1.18rem;
+  text-align: justify;
+  background-color: #fef2da;
+  padding: 25px;
+  border-radius: 30px;
+}
+.Pagefour__container .Pagefour .Pagefour__section div {
+  padding: 20px 30%;
+  color: #012b32;
+}
+.Pagefour__container .Pagefour .Pagefour__section div button + button {
+  margin-left: 10px;
+}
+.Pagefour__container .Pagefour .Pagefour__section div button {
+  background-color: #c65919;
+  border: none;
+  border-radius: 30px;
+  width: 70px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.Pagefour__container .Pagefour .Pagefour__section div button:hover {
+  background-color: #f85c05;
+  transition: 0.7s;
+  transform: scale(1.05);
+  color: #fff;
 }/*# sourceMappingURL=pagefour.css.map */

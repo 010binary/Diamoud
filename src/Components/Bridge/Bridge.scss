@@ -28,9 +28,10 @@
         font-family: "El Messiri", sans-serif;
 
         .Number {
+            display: grid;
+            place-content: center;
             background-color: $yellow;
             font-size: 3rem;
-            line-height: 90px;
             font-weight: 700;
             text-align: center;
             height: 80px;

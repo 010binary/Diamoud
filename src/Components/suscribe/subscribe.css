@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.Subscribe__container {
+  display: flex;
+  height: 100px;
+}/*# sourceMappingURL=subscribe.css.map */

@@ -5,9 +5,8 @@ import NavBar from './Components/NavBar/NavBar.jsx'
 const Bridge = React.lazy(() => import('./Components/Bridge/Bridge.jsx'))
 const Pagethree = React.lazy(() => import('./Components/Pagethree/Pagethree.jsx'))
 const Pagetwo = React.lazy(() => import('./Components/Pagetwo/Pagetwo.jsx'))
-//import Pagethree from './Components/Pagethree/Pagethree.jsx'
-// import Pagetwo from './Components/Pagetwo/Pagetwo.jsx'
-// import Bridge from './Components/Bridge/Bridge.jsx'
+const Pagefour = React.lazy(() => import('./Components/Pagefour/Pagefour.jsx'))
+const Subscribe = React.lazy(() => import('./Components/suscribe/Subscribe.jsx'))
 
 
 function App() {
@@ -21,6 +20,8 @@ function App() {
         <Bridge />
         <Pagetwo />
         <Pagethree />
+        <Pagefour />
+        <Subscribe />
       </main>
     </>
   )
