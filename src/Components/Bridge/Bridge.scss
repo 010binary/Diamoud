@@ -145,3 +145,28 @@
         }
     }
 }
+
+@include mobile {
+    .Bridge__Container {
+        width: 100%;
+        display: block;
+        padding: 15px 0 15px 15px;
+        overflow: hidden;
+
+        .colar__design {
+            display: none;
+        }
+
+        .category {
+            display: none;
+        }
+
+        .pictures {
+            width: 100%;
+            padding: 5px 0;
+            padding-right: 20px;
+            overflow-x: scroll;
+            border-radius: 20px;
+        }
+    }
+}

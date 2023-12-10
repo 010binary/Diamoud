@@ -7,7 +7,11 @@ function NavBar() {
   const NavRender = NavItems.map(navitems => <li key={navitems}><a href={`#${navitems}`}>{navitems}</a></li>)
   return (
     <nav >
-      <p className='header'><img src={logo} alt="Company Logo" /></p>
+      <div className='header'>
+        <a href='#'>
+          <img src={logo} alt="Company Logo" />
+        </a>
+      </div>
       <ul>
         {NavRender}
       </ul>

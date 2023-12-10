@@ -23,10 +23,11 @@ class Subscribe extends Component {
         })
     }
     render() {
+        const gt = '->'
         return (
             <div className='Subscribe__container'>
                 <div className='subscribe__left'>
-                    {/* <img src={image} alt="dog" /> */}
+                    <img src={image} alt="dog" />
                 </div>
                 <div className='subscribe__right'>
                     <h4><span>Subscribe & get</span> Pawsome Updatenews</h4>
@@ -36,8 +37,9 @@ class Subscribe extends Component {
                             id="Email"
                             onChange={this.onChangingEmail}
                             value={this.state.Email}
+                            placeholder='Mail'
                         />
-                        <button type="submit">Submit</button>
+                        <button type="submit">{gt}</button>
                     </form>
                 </div>
             </div>

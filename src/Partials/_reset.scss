@@ -12,7 +12,14 @@ $moblie-value: 600px;
 @mixin mobile {
     @media (max-width: $moblie-value) {
         @content;
-        color: #696969;
+
+    }
+}
+
+@mixin Tablet {
+    @media (max-width: $tablet-value) {
+        @content;
+
     }
 }
 
@@ -28,4 +35,4 @@ $yellow: #fdbe13;
 $accent-orange: #f85c05;
 $dark-color: #012d38;
 $white: #f9fdff;
-$blur : #012b32;
+$blur : #02414c;

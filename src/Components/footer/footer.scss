@@ -1,2 +1,58 @@
 @import "../../Partials/reset";
 
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: $third-page;
+
+
+
+    .footer__left {
+        margin-left: 80px;
+
+        img {
+            width: 150px;
+            height: 150px;
+
+        }
+    }
+
+    .footer__design {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        img {
+            width: 80px;
+        }
+
+    }
+
+    .footer__right {
+        width: 50%;
+        margin-left: 80px;
+
+        .divs {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    color: $blur;
+                    text-decoration: none;
+                    font-size: 1.5rem;
+
+                    &:hover {
+                        text-decoration: underline;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

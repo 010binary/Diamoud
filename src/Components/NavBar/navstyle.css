@@ -34,7 +34,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #012b32;
+  color: #02414c;
 }
 nav ul li a:hover {
   color: #c65919;
@@ -71,6 +71,6 @@ nav button:hover {
   transform: scale(1.05);
 }
 nav button:hover a {
-  color: #012b32;
+  color: #02414c;
   transition: 0.7s;
 }/*# sourceMappingURL=navstyle.css.map */

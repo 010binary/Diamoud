@@ -22,7 +22,6 @@
 .Pagetwo__container .Design__two {
   position: absolute;
   right: 0;
-  top: 0;
   z-index: 1;
 }
 .Pagetwo__container .Design__two img {
@@ -40,7 +39,7 @@
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
-  color: #012b32;
+  color: #02414c;
 }
 .Pagetwo__container .Content__container .services {
   display: flex;
@@ -60,7 +59,7 @@
 .Pagetwo__container .Content__container .pagetwo_imgs .Shirt,
 .Pagetwo__container .Content__container .pagetwo_imgs .Stethoscope {
   width: 50px;
-  fill: #012b32;
+  fill: #02414c;
 }
 .Pagetwo__container .Content__container .pagetwo_imgs .scissors {
   rotate: 270deg;
@@ -68,28 +67,23 @@
 .Pagetwo__container .Content__container .section:hover {
   transition: 1s;
   background-color: #f1b01a;
-  transform: skew(0deg);
+  transform: scale(1.1);
 }
 .Pagetwo__container .Content__container .section:hover .pagetwo_imgs {
   background-color: #fdeead;
   transition: 0.5s;
-  transform: skew(0deg);
-}
-.Pagetwo__container .Content__container .section:hover p {
-  transform: skew(0deg);
 }
 .Pagetwo__container .Content__container .section:hover button {
   background-color: #f85c05;
   transition: 0.7s;
   transform: scale(1.05);
-  transform: skew(0deg);
 }
 .Pagetwo__container .Content__container .section:hover button a {
-  color: #012b32;
+  color: #02414c;
   transition: 0.7s;
 }
 .Pagetwo__container .Content__container .section {
-  color: #012b32;
+  color: #02414c;
   background-color: #fdeead;
   padding: 30px;
   width: 30%;
@@ -125,36 +119,24 @@
   text-transform: uppercase;
 }
 
-.section + .section {
-  margin-left: 100px;
-}
-
-.pharmacy {
-  transform: skew(10deg);
-}
-.pharmacy .pagetwo_imgs,
-.pharmacy p,
-.pharmacy button {
-  transform: skew(-10deg) translate(0, -10%);
-  margin: 0px 20px;
-}
-
-.cloths {
-  transform: skew(10deg) translate(0, 10%);
-}
-.cloths .pagetwo_imgs,
-.cloths p,
-.cloths button {
-  transform: skew(-10deg);
-  margin: 0px 20px;
-}
-
-.haircut {
-  transform: skew(-10deg) translate(0, 5%);
-}
-.haircut .pagetwo_imgs,
-.haircut p,
-.haircut button {
-  transform: skew(10deg);
-  margin: 0px 20px;
+@media (max-width: 600px) {
+  .Pagetwo__container {
+    padding: 25px 40px 10px 40px;
+  }
+  .Pagetwo__container .Design__two {
+    bottom: 0;
+  }
+  .Pagetwo__container .Content__container .services {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Pagetwo__container .Content__container .section {
+    width: 100%;
+  }
+  .Pagetwo__container .Content__container .section button {
+    width: 50%;
+  }
+  .Pagetwo__container .Content__container .section + .section {
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=Pagetwo.css.map */

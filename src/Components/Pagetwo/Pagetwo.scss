@@ -20,7 +20,6 @@
     .Design__two {
         position: absolute;
         right: 0;
-        top: 0;
         z-index: 1;
 
         img {
@@ -75,23 +74,21 @@
         .section:hover {
             transition: 1s;
             background-color: $dark-orange;
-            transform: skew(0deg);
+            transform: scale(1.1);
 
             .pagetwo_imgs {
                 background-color: $second-page;
                 transition: 0.5s;
-                transform: skew(0deg);
+
             }
 
-            p {
-                transform: skew(0deg);
-            }
+            p {}
 
             button {
                 background-color: $accent-orange;
                 transition: 0.7s;
                 transform: scale(1.05);
-                transform: skew(0deg);
+
 
                 a {
                     color: $blur;
@@ -144,41 +141,31 @@
     }
 }
 
-.section+.section {
-    margin-left: 100px;
-}
+@include mobile {
+    .Pagetwo__container {
+        padding: 25px 40px 10px 40px;
 
-.pharmacy {
-    transform: skew(10deg);
+        .Design__two {
+            bottom: 0;
+        }
 
-    .pagetwo_imgs,
-    p,
-    button {
-        transform: skew(-10deg) translate(0, -10%);
-        margin: 0px 20px;
+        .Content__container {
+            .services {
+                flex-direction: column;
+                justify-content: space-between;
+            }
 
-    }
+            .section {
+                width: 100%;
 
-}
+                button {
+                    width: 50%;
+                }
+            }
 
-.cloths {
-    transform: skew(10deg) translate(0, 10%);
-
-    .pagetwo_imgs,
-    p,
-    button {
-        transform: skew(-10deg);
-        margin: 0px 20px;
-    }
-}
-
-.haircut {
-    transform: skew(-10deg) translate(0, 5%);
-
-    .pagetwo_imgs,
-    p,
-    button {
-        transform: skew(10deg);
-        margin: 0px 20px;
+            .section+.section {
+                margin-top: 20px;
+            }
+        }
     }
 }

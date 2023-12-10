@@ -7,6 +7,7 @@ const Pagethree = React.lazy(() => import('./Components/Pagethree/Pagethree.jsx'
 const Pagetwo = React.lazy(() => import('./Components/Pagetwo/Pagetwo.jsx'))
 const Pagefour = React.lazy(() => import('./Components/Pagefour/Pagefour.jsx'))
 const Subscribe = React.lazy(() => import('./Components/suscribe/Subscribe.jsx'))
+const Footer = React.lazy(() => import('./Components/footer/Footer.jsx'))
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Pagethree />
         <Pagefour />
         <Subscribe />
+        <Footer />
       </main>
     </>
   )

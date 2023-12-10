@@ -39,7 +39,7 @@
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  color: #012b32;
+  color: #02414c;
   font-family: "El Messiri", sans-serif;
 }
 .Bridge__Container .pictures {
@@ -54,7 +54,7 @@
 .Bridge__Container .pictures .a_Dog {
   text-align: center;
   font-weight: 600;
-  color: #012b32;
+  color: #02414c;
 }
 .Bridge__Container .pictures .a_Dog > img {
   display: block;
@@ -114,4 +114,26 @@
 }
 .Bridge__Container .pictures .a_bird.oneb {
   grid-area: 2/7/3/8;
+}
+
+@media (max-width: 600px) {
+  .Bridge__Container {
+    width: 100%;
+    display: block;
+    padding: 15px 0 15px 15px;
+    overflow: hidden;
+  }
+  .Bridge__Container .colar__design {
+    display: none;
+  }
+  .Bridge__Container .category {
+    display: none;
+  }
+  .Bridge__Container .pictures {
+    width: 100%;
+    padding: 5px 0;
+    padding-right: 20px;
+    overflow-x: scroll;
+    border-radius: 20px;
+  }
 }/*# sourceMappingURL=Bridge.css.map */

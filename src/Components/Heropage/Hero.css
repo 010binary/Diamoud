@@ -46,7 +46,7 @@
   transform: scale(1.05);
 }
 .Hero .Hero__Text button:hover a {
-  color: #012b32;
+  color: #02414c;
   transition: 0.7s;
 }
 .Hero .Hero__Text button + button {
@@ -57,4 +57,23 @@
 }
 .Hero .Hero__imgs img {
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  .Hero {
+    padding: 0 30px 50px 30px;
+    overflow: hidden;
+  }
+  .Hero .Hero__imgs {
+    display: none;
+  }
+  .Hero .Hero__Text {
+    width: 100%;
+  }
+  .Hero .Hero__Text button {
+    width: 100%;
+  }
+  .Hero .Hero__Text button + button {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=Hero.css.map */
