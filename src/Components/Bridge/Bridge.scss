@@ -28,9 +28,10 @@
         font-family: "El Messiri", sans-serif;
 
         .Number {
+            display: grid;
+            place-content: center;
             background-color: $yellow;
             font-size: 3rem;
-            line-height: 90px;
             font-weight: 700;
             text-align: center;
             height: 80px;
@@ -141,6 +142,31 @@
         //13
         .a_bird.oneb {
             grid-area: 2 / 7 / 3 / 8;
+        }
+    }
+}
+
+@include mobile {
+    .Bridge__Container {
+        width: 100%;
+        display: block;
+        padding: 15px 0 15px 15px;
+        overflow: hidden;
+
+        .colar__design {
+            display: none;
+        }
+
+        .category {
+            display: none;
+        }
+
+        .pictures {
+            width: 100%;
+            padding: 5px 0;
+            padding-right: 20px;
+            overflow-x: scroll;
+            border-radius: 20px;
         }
     }
 }

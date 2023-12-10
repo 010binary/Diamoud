@@ -9,7 +9,7 @@
     padding-bottom: 50px;
     background-color: $hero-color;
     justify-content: space-evenly;
-   
+
 
     .Hero__Text {
         width: 40%;
@@ -64,6 +64,29 @@
 
         img {
             width: 100%;
+        }
+    }
+}
+
+@include mobile {
+    .Hero {
+        padding: 0 30px 50px 30px;
+        overflow: hidden;
+
+        .Hero__imgs {
+            display: none;
+        }
+
+        .Hero__Text {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+
+            button+button {
+                margin-left: 0;
+            }
         }
     }
 }

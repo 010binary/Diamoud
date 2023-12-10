@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Hero.css';
-import imgs from '/public/HeroFirst.png';
+import imgs from '/imgs/hero&nav/HeroFirst.png';
 
 class HeroPage extends Component {
     render() {
