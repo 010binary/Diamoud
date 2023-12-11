@@ -5,7 +5,8 @@
     position: relative;
     justify-content: space-between;
     background-color: $third-page;
-    
+    overflow: hidden;
+
 
     .pagethree__design__one,
     .pagethree__design__two {
@@ -94,6 +95,56 @@
                     color: $blur;
                     transition: 0.7s;
                 }
+            }
+        }
+    }
+}
+
+@include mobile {
+    .Pagethree__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 45px;
+
+        .pagethree__design__one,
+        .pagethree__design__two {
+            img {
+                width: 100px;
+            }
+        }
+
+        .pagethree__design__two {
+            top: 10%;
+            left: 0;
+        }
+
+        .Left__img {
+            margin: 0;
+
+            img {
+                width: 300px;
+                height: 175px;
+                border-radius: 10px;
+            }
+        }
+
+        .Right__text {
+            margin: 0;
+
+            .Pagethree__header {
+                width: fit-content;
+                font-size: 2rem;
+            }
+
+            .Pagethree__Description {
+                margin: 0;
+                margin-top: 20px;
+                font-size: 17px;
+            }
+
+            ul {
+                font-size: 17px;
+                letter-spacing: 1.5px;
             }
         }
     }

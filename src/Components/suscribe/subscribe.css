@@ -45,7 +45,7 @@
   color: #fff;
 }
 .Subscribe__container .subscribe__right form input:active, .Subscribe__container .subscribe__right form input:focus {
-  border: inherit;
+  border: none;
 }
 .Subscribe__container .subscribe__right form button {
   font-size: 2.2rem;
@@ -55,4 +55,34 @@
   font-weight: 900;
   color: #fff;
   letter-spacing: -0.2em;
+}
+
+@media (max-width: 600px) {
+  .Subscribe__container {
+    flex-direction: column;
+    height: fit-content;
+    width: 100vw;
+  }
+  .Subscribe__container .subscribe__left {
+    width: 100%;
+    height: 180px;
+  }
+  .Subscribe__container .subscribe__right {
+    width: 100%;
+  }
+  .Subscribe__container .subscribe__right h4 {
+    font-size: 2rem;
+    width: 100%;
+    margin: 0;
+    padding: 10px 10%;
+  }
+  .Subscribe__container .subscribe__right form {
+    width: 100%;
+    margin: 0;
+    padding: 0px 5% 20px 10%;
+  }
+  .Subscribe__container .subscribe__right form input {
+    width: 80%;
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=subscribe.css.map */

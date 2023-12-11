@@ -46,4 +46,36 @@
 .footer__container .footer__right .divs li a:hover {
   text-decoration: underline;
   text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  .footer__container {
+    display: block;
+    width: 100%;
+    padding: 0px 25px;
+  }
+  .footer__container .footer__left {
+    margin: 0;
+  }
+  .footer__container .footer__left img {
+    width: 100px;
+    height: 100px;
+  }
+  .footer__container .footer__design {
+    left: 80%;
+    top: 0;
+  }
+  .footer__container .footer__design img {
+    width: 70px;
+  }
+  .footer__container .footer__right {
+    margin: 0;
+    width: 100%;
+  }
+  .footer__container .footer__right .divs {
+    width: 100%;
+  }
+  .footer__container .footer__right .divs li a {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -56,3 +56,44 @@
         }
     }
 }
+
+@include mobile {
+    .footer__container {
+        display: block;
+        width: 100%;
+        padding: 0px 25px;
+
+        .footer__left {
+            margin: 0;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .footer__design {
+            left: 80%;
+            top: 0;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .footer__right {
+            margin: 0;
+            width: 100%;
+
+            .divs {
+                width: 100%;
+
+                li {
+                    a {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}

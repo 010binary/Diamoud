@@ -3,7 +3,7 @@
 .Pagefour__container {
     background-color: $second-page;
     color: $dark-color;
-    
+
 
     .Pagefour {
         display: flex;
@@ -65,5 +65,44 @@
             }
         }
 
+    }
+}
+
+@include mobile {
+    .Pagefour__container {
+        padding: 20px 40px 50px;
+
+        .Pagefour {
+            flex-direction: column;
+
+            .Pagefour__image {
+                margin: 0;
+
+                img {
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 10px;
+                }
+            }
+
+            .Pagefour__section {
+                width: 100%;
+
+                h2 {
+                    text-align: center;
+                    margin: 10px auto;
+
+                }
+
+                div {
+                    padding: 0px 20%;
+
+                    button {
+                        margin: 0;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
     }
 }

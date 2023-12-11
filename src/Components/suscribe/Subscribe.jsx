@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './subscribe.css'
-import image from '/imgs/Pages/A Dog.jpg';
+import image from '/imgs/Pages/A_Dog.png';
 
 class Subscribe extends Component {
     constructor(props) {
