@@ -1,27 +1,38 @@
-import React from 'react'
-import './navstyle.css'
+import React, { useState } from 'react';
+import './navstyle.scss'; // Assuming your Sass file is named navstyle.scss
 import logo from '/imgs/hero&nav/Veterinary.png';
 
 function NavBar() {
-  const NavItems = ['Home', 'Boxer', 'Breedings', 'Puppies', 'About Us']
-  const NavRender = NavItems.map(navitems => <li key={navitems}><a href={`#${navitems}`}>{navitems}</a></li>)
+  const [isOpen, setIsOpen] = useState(false);
+
+  const NavItems = ['Home', 'Boxer', 'Breedings', 'Puppies', 'About Us'];
+  const NavRender = NavItems.map((navItem) => (
+    <li key={navItem}>
+      <a href={`#${navItem}`} onClick={() => setIsOpen(false)}>
+        {navItem}
+      </a>
+    </li>
+  ));
+
   return (
-    <nav >
+    <nav className={`navbar ${isOpen ? 'active' : ''}`}>
       <div className='header'>
         <a href='#'>
-          <img src={logo} alt="Company Logo" />
+          <img src={logo} alt='Company Logo' />
         </a>
       </div>
-      <ul>
-        {NavRender}
-      </ul>
+
+      <ul className={`nav-links ${isOpen ? 'active' : ''}`}>{NavRender}</ul>
       <button>
-        <a>
-          join us
-        </a>
+        <a href='#'>Join Us</a>
       </button>
+      <div className='menu-icon' onClick={() => setIsOpen(!isOpen)}>
+        <div className='line' />
+        <div className='line' />
+        <div className='line' />
+      </div>
     </nav>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
