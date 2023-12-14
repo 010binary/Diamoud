@@ -23,6 +23,13 @@ $moblie-value: 600px;
     }
 }
 
+@mixin flex($direction, $alignment, $justifment) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $alignment;
+    justify-content: $justifment;
+}
+
 $hero-color: #05d3bc;
 $accent-color: #c65919;
 $secondary-color: #feefae;
