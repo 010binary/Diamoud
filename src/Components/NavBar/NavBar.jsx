@@ -36,7 +36,7 @@ function NavBar() {
         </a>
       </button>
       <div className="icons">
-        <div className="burger-menu active" onClick={showNavbar}>
+        <div className="burger-menu" onClick={showNavbar}>
           <span></span>
           <span></span>
           <span></span>

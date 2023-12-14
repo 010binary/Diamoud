@@ -88,9 +88,30 @@ nav {
         }
     }
 
-    .menu-icon {
-        display: none;
+    .icons {
+        .burger-menu {
+            opacity: 0;
+            width: 80px;
+            cursor: pointer;
+            height: 60px;
+            z-index: 100;
+            position: fixed;
+            top: 14px;
+            right: 0;
+            pointer-events: none;
+
+            & span {
+                display: block;
+                background-color: $white;
+                width: 60%;
+                height: 6px;
+                margin: 8px auto;
+                border-radius: 10px;
+            }
+        }
     }
+
+
 }
 
 
@@ -105,6 +126,15 @@ nav {
 
         button {
             display: none;
+        }
+        .Logo {
+            width: 30%;
+    
+            img {
+                min-width: 80px;
+                max-width: 150px;
+    
+            }
         }
 
         ul {
