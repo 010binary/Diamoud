@@ -7,7 +7,7 @@ import fox from '/imgs/Bridge_imgs/A fox.jpg';
 import Cat from '/imgs/Bridge_imgs/A grey cat.jpg';
 import Hamster from '/imgs/Bridge_imgs/A Hamsters.jpg';
 import hamster from '/imgs/Bridge_imgs/A hamster.jpg';
-import parrot from '/imgs/Bridge_imgs/A Parrot.jpg';
+// import parrot from '/imgs/Bridge_imgs/A Parrot.jpg';
 import dog from '/imgs/Bridge_imgs/A siberian Husky.jpg';
 import Parrot from '/imgs/Bridge_imgs/A parrot2.jpg';
 import Chameleon from '/imgs/Bridge_imgs/A Chameleon.jpg';
@@ -33,7 +33,7 @@ function Bridge() {
           <img src={cat} alt="Picture of a Cat" loading='lazy' />
         </div>
         <div className="a_parrot">
-          <img src={parrot} alt="Picture of a parrot" loading='lazy' />
+          {/* <img src={parrot} alt="Picture of a parrot" loading='lazy' /> */}
         </div>
         <div className="a_Dog">
           Dog (Jasper)
